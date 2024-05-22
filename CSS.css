@@ -3,6 +3,23 @@ body {
     font-family: sans-serif;
     color: #333;
 }
+.space{
+    padding-top: 15px;
+}
+.buttondiv{
+    background-color: #b6b6b6;
+    height: 20px;
+    display: flex;
+    gap: 4px;
+    vertical-align: center;
+    background-size: cover;
+    margin-left: 85%;
+    margin-bottom: -15px;
+}
+
+.flag{
+    width: 18px;
+}
 
 .popis{
     align-items: baseline;
@@ -121,12 +138,15 @@ body {
 }
 
 .text-content h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-top: 0;
 }
 
 .text-content p {
+    display: flex;
     margin: 10px 0;
+    gap: 5px;
+    font-size: 18px;
 }
 
 .quote {
